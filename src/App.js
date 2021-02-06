@@ -32,7 +32,7 @@ function App() {
     <div>
       {/* <Sitebar clickLogout={clearToken} />
       <Auth updateToken={updateToken} /> */}
-      <Sitebar clearToken={clearToken}/>
+      <Sitebar clickLogout={clearToken}/>
       {protectedViews()}
     </div>
   );
